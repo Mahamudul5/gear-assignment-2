@@ -9,10 +9,13 @@ body{
     background-color:  #AAAAAA;
 }
 main{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    place-items: center;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: center;  
+    justify-content: center; */
 }
 .container{
     width: 1070px;
@@ -109,7 +112,7 @@ margin-left: 140px;
     color: gray;
 }
 .products{
-     display:grid;
+    display:grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 25px;
     margin-top: 20px;
@@ -408,6 +411,123 @@ footer{
         
     }
 }
-    
+ /* Responsiveness for all divices     */
+/* for Mobile phone  */
+@media  only screen and (max-width:688px){
+main{
+    width: 100%;
+    align-items: none;
+    background-color: tomato;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+h4{
+    margin-top: 10px;
+    margin-left: 60px;
+
+}
+.head-info-pic{
+    width: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-anima{
+    width: 80px;
+height: 80px;
+}
+.header-photo img{
+    width: 80px;
+    height: 80px;
+    margin-top:20px;
+    margin-left: 60px;
+
+}
+.typing-header{
+    font-size: 20px;
+}
+.header-anima p{
+display: none;
+}
+.button{
+    margin: 5px,5px;
+    padding: 5px;
+
+}
+.logoes{
+    display: none;
+}
+hr{
+    display: none;
+}
+.button{
+    background-color:#E02C6D;
+    height: 22px;
+    width: 60px;
+    border-radius: 15px;
+    padding: 3px 8px 3px 6px;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    }
+    h2{
+        display:none;
+    }
+.products{
+width: 100%;
+display: flex;
+/* margin-right: 200px; */
+
+flex-direction: column;
+margin-top: 20px;
+    }
+.product{
+width: 100%;
+margin: 5px;
+
+}
+.tracking{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin:10px;
+    margin-top: 20px;
+
+}
+.left{
+    width: 100%;
+}
+.right{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    margin-top: 70px;
+    background-color: #0A0826;
+    color: #ffffff;
+    padding: 12px;
+    align-items: baseline;
+}
+.footer-text p,h4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: small;
+    }
+.social-logo{
+    width: 100%;
+}
+
+}
+
+
 
 
