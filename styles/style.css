@@ -141,7 +141,7 @@ margin-left:20px;
 /* footer design  */
 footer{
     width:1070px;
-    height: 130px;
+    height: 110px;
     margin-top: 70px;
     background-color: #0A0826;
     color: #ffffff;
@@ -167,5 +167,241 @@ footer{
     border-radius: 3px;
     padding: 0;
 }
+/* typing animation design on title  */
+.typing-header{
+    font-size:40px;
+    position: relative;
+    color: transparent;
+    }
+.typing-header::before{
+    content: " Start your Journey as Influencer";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: blueviolet;
+    animation: typing 6s  infinite ;
+}
+@keyframes typing {
+    0%{
+        content:'S|';
+    }
+    0%{
+        content:'S|';
+    }
+    1%{
+        content:'St|';
+    }
+    2%{
+        content:'Sta|';
+    }
+    3%{
+        content:'Star|';
+    }
+    4%{
+        content:'Start|';
+    }
+    5%{
+        content:'Start |';
+    }
+    6%{
+        content:'Start y|';
+    }
+    7%{
+        content:'Start yo|';
+    }
+    8%{
+        content:'Start you|';
+    }
+    9%{
+        content:'Start your|';
+        
+    }
+    10%{
+        content:'Start your |';
+        
+    }
+    11%{
+        content:'Start your J|';
+        
+    }
+    13%{
+        content:'Start your Jo|';
+        
+    }
+    14%{
+        content:'Start your Jou|';
+        
+    }
+    15%{
+        content:'Start your Jour|';
+        
+    }
+    16%{
+        content:'Start your Journ|';
+        
+    }
+    
+    17%{
+        content:'Start your Journe|';
+        
+    }
+    18%{
+        content:'Start your Journey|';
+        
+    }
+    19%{
+        content:'Start your Journey |';
+        
+    }
+    20%{
+        content:'Start your Journey a |';
+        
+    }
+    21%{
+        content:'Start your Journey as|';
+        
+    }
+    22%{
+        content:'Start your Journey as In|';
+        
+    }
+    23%{
+        content:'Start your Journey as Infl|';
+        
+    }
+    24%{
+        content:'Start your Journey as Influ|';
+        
+    }
+    25%{
+        content:'Start your Journey as Influen|';
+        
+    }
+    26%{
+        content:'Start your Journey as Influence|';
+        
+    }
+    27%{
+        content:'Start your Journey as Influencer|';
+        
+    }
+    28%,72%{
+        content:'Start your Journey as Influencer|';
+        
+    }
+    73%{
+        content:'Start your Journey as Influence|';
+        
+    }
+    74%{
+        content:'Start your Journey as Influen|';
+        
+    }
+    75%{
+        content:'Start your Journey as Influe|';
+        
+    }
+    76%{
+        content:'Start your Journey as Influ|';
+        
+    }
+    77%{
+        content:'Start your Journey as Infl|';
+        
+    }
+    78%{
+        content:'Start your Journey as Inf|';
+        
+    }
+    79%{
+        content:'Start your Journey as In|';
+        
+    }
+    80%{
+        content:'Start your Journey as |';
+        
+    }
+    81%{
+        content:'Start your Journey a|';
+        
+    }
+    82%{
+        content:'Start your Journey|';
+        
+    }
+    83%{
+        content:'Start your Journe|';
+        
+    }
+    84%{
+        content:'Start your Journ|';
+        
+    }
+    85%{
+        content:'Start your Jour|';
+        
+    }
+    86%{
+        content:'Start your Jou|';
+        
+    }
+    87%{
+        content:'Start your Jo|';
+        
+    }
+    88%{
+        content:'Start your |';
+        
+    }
+    89%{
+        content:'Start your|';
+        
+    }
+    90%{
+        content:'Start you|';
+        
+    }
+    91%{
+        content:'Start yo|';
+        
+    }
+    92%{
+        content:'Start y|';
+        
+    }
+    93%{
+        content:'Start |';
+        
+    }
+    94%{
+        content:'Start|';
+        
+    }
+    95%{
+        content:'Star|';
+        
+    }
+    96%{
+        content:'Sta|';
+        
+    }
+    97%{
+        content:'St|';
+        
+    }
+    98%{
+        content:'S|';
+        
+    }
+    99%{
+        content:'|';
+        
+    }
+    100%{
+        content:'|';
+        
+    }
+}
+    
 
 
