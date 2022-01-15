@@ -32,6 +32,10 @@ h4{
 .header-anima{
     width: 50%;
 }
+.product-headline{
+    text-align: center;
+    margin-top: 20px;
+}
 /* .header-anima a{
  margin:60px 0;
  margin-bottom: 150px;
@@ -157,6 +161,11 @@ footer{
 }
 .button:hover {
     background-color: blueviolet;
+}
+.logo:hover img{
+    border: 1px solid blueviolet;
+    border-radius: 3px;
+    padding: 0;
 }
 
 
