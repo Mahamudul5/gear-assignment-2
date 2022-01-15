@@ -90,6 +90,11 @@ hr{
 margin-left: 140px;
 }
 /* products part design  */
+.product{
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px gray;
+}
+
 .info{
     display: flex;
 }
@@ -104,14 +109,15 @@ margin-left: 140px;
     color: gray;
 }
 .products{
-    display:grid;
+     display:grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 25px;
-    margin-top: 30px;
-    margin-left: 38px;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: 20px;
+    /* margin-left: 22px; */
+    /* justify-self:auto; */
+    place-items: center;
 }
+
 /* seemore button design  */
 .see-more a{
     text-decoration: none;
